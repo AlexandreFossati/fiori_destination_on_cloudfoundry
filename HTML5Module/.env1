@@ -1,0 +1,1 @@
+destinations=[{"name":"northwind_api","url":"https://northwind_api.dest","proxyHost":"http://127.0.0.1","proxyPort":"8887"},{"name":"fcf7b533HanaDB","url":"https://fcf7b533HanaDB.dest","proxyHost":"http://127.0.0.1","proxyPort":"8887"}]

@@ -1,0 +1,29 @@
+{
+    "welcomeFile": "/index.html",
+    "authenticationMethod": "none",
+    "logout": {
+        "logoutEndpoint": "/do/logout"
+    },
+    "routes": [
+        {
+            "authenticationType": "none",
+            "csrfProtection": false,
+            "source": "^/fcf7b533HanaDB/(.*)$",
+            "destination": "fcf7b533HanaDB",
+            "target": "$1"
+        },
+        {
+            "authenticationType": "none",
+            "csrfProtection": false,
+            "source": "^/northwind_api/(.*)$",
+            "destination": "northwind_api",
+            "target": "$1"
+        },
+        {
+            "source": "^(.*)$",
+            "target": "$1",
+            "service": "html5-apps-repo-rt",
+            "authenticationType": "xsuaa"
+        }
+    ]
+}
