@@ -6,6 +6,7 @@ What really matters for the application to be able to consume the destination, i
 For your code:
 
 1 - mta.yaml need to have a destination service in the "resources" section, and also need to "require" this destination in the HTML5Module.
+![Screenshot](mta.png)
 
 2 - In the HTML5Module in xs-app.json file, you need to add the route for your destination.
 
