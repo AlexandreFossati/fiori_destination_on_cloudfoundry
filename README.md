@@ -6,13 +6,21 @@ What really matters for the application to be able to consume the destination, i
 For your code:
 
 1 - mta.yaml need to have a destination service in the "resources" section, and also need to "require" this destination in the HTML5Module.
+
 ![Screenshot](mta.png)
 
 2 - In the HTML5Module in xs-app.json file, you need to add the route for your destination.
 
+![Screenshot](xs-app.png)
+
 Once the code is fine, you need to go to the "Run configuration" tab on SAP Business Application Studio.
 Click on "Create configuration" and follow the steps.
+
+![Screenshot](run-config.png)
+
 When it's done, expand your project in this "Run configuration" tab and connect the "Data Source" to it's specific destination.
+
+![Screenshot](data-source.png)
 
 Here's the "northwind_api" destination used in the xs-app.json:
 
