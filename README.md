@@ -25,6 +25,7 @@ WebIDEEnabled=true
 ProxyType=Internet
 URL=https\://services.odata.org/V2/Northwind/Northwind.svc
 
+
 Here's the "northwind_api" destination used in the xs-app.json:
 clientSecret=<< Existing password/certificate removed on export >>
 #Password=<< Existing password/certificate removed on export >>
